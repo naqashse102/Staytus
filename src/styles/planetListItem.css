@@ -1,0 +1,61 @@
+.planet-list .planet-list-item {
+    background: #27272A;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.planet-list .planet-list-item .item-details .heading {
+    color: #B79C5A;
+}
+
+.planet-list .planet-list-item .item-details .content {
+    display: flex;
+    margin-top: 10px;
+}
+
+.planet-list .planet-list-item .item-details .content .p-icon {
+    width: 55px;
+    height: 55px;
+    margin-right: 15px;
+    padding: 8px 10px;
+    background: #646466;
+    border-radius: 15px;
+    color: #fff
+}
+
+.planet-list .planet-list-item .item-details .content .p-name {
+    font-weight: 600;
+    color: white;
+}
+
+.planet-list .planet-list-item .item-details .content .p-film-list {
+    color: #96969E;
+}
+
+.planet-list .planet-list-item .p-stamp-container {
+    text-align: right;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+}
+
+.planet-list .planet-list-item .p-stamp-container .p-timestamp {
+    display: flex;
+    flex-direction: column;
+}
+
+.planet-list .planet-list-item .p-stamp-container .date-create {
+    color: #B79C5A;
+}
+
+.planet-list .planet-list-item .p-stamp-container .p-climate {
+    color: #96969E;
+    margin-top: 5px
+}
+
+.planet-list .planet-list-item .p-stamp-container svg {
+    color: white;
+    cursor: pointer;
+}
